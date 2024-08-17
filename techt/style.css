@@ -1,0 +1,217 @@
+/*Desktop View*/
+body{
+	background:white;
+	padding:0; margin:0;
+	font-family: arial;
+	color: black;
+	
+}	
+
+#checkbox_id{
+		display: none;
+
+}
+#label_id{
+	position: absolute;
+	margin-left: -3em;
+}
+.menu_bar{
+	display: flex;
+	width: 100%;
+}
+
+.menu_bar_item ul li a, .menu_bar_item ul li{
+	text-decoration: none;
+	color:black;
+	list-style: none;
+	
+}
+.menu_bar_item ul{
+	display: flex;
+}
+.menu_bar_item ul li a{
+	margin-left: 1em;
+	font-weight: bold;
+}
+.menu_bar_item{
+	
+}
+
+.menu_bar_title{
+	font-weight: bold;
+	margin: 1.2em 15em 0 6em;
+}
+.menu_bar_item ul li .service{
+	color: #93e525;
+}
+
+.get_a_quote{
+	background:black;
+	color:white;
+	padding:0.5em 1em;
+	margin-top: -0.5em;
+	border-radius: 7px;
+	
+}
+.get_class{
+	margin-left:10em;
+}
+
+.sub_main{
+	width:90%;
+	text-align: center;
+	margin: auto;
+	
+}
+.service_class{
+	background: #93e525;
+	border-radius: 10px;
+	text-align: center;
+	padding:3em 0;
+}
+.sub_sub_main{
+	padding:4em 0 2em 0;
+}
+
+.business_class{
+	font:bold 23px arial;
+	text-transform: capitalize;
+	margin-top: 0.5em;
+}
+.item_list_class{
+	display: flex;
+}
+.sub_item_list{
+	background: black;
+	width: 26%;
+	text-align: left;
+	color: white;
+	padding: 3em 2em;
+	border-radius: 20px;
+	margin: auto;
+}
+
+.sub_item_list_detail{
+	font-size: 12px;
+}
+.sub_item_list_title{
+	font-weight: bold;
+	padding:0.6em 0;
+}
+
+
+
+
+
+
+
+
+
+/*Tablet View*/
+
+@media(max-width: 100px){
+
+
+}
+
+
+/*Mobile View#97ff47*/
+
+@media(max-width: 1300px){
+
+body{
+	background:white;
+	padding:0; margin:0;
+	font-family: arial;
+}
+
+
+.main{
+	display:flex;
+	color: black;
+}
+
+.menu_bar{
+	width:300px;
+	background:black;
+	height: 200vh;
+	color: white;
+	text-align: left;
+	display: block;
+}
+.menu_bar_title{
+	margin:1em 0 3em 2.5em;
+}
+.menu_bar_item ul li a, .menu_bar_item ul li{
+	text-decoration: none;
+	color:white;
+	list-style: none;
+	float: none;
+}
+.menu_bar_item ul li{
+	margin-bottom: 2em;
+}
+.menu_bar_item ul li a:hover{
+	color:#97ff47;
+}
+
+#label_id{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#checkbox_id:checked ~ #menu_bar{
+	display: none;
+}
+#checkbox_id:checked ~ #label_id{
+	color: black;
+	padding:0.2em 0.3em;
+	position:absolute;
+}
+#checkbox_id:checked ~ .sub_main{
+	margin: 0em 0.5em 0 0.3em;
+
+}
+#checkbox_id{
+	display: none;
+}
+
+#label_id, #checkbox_id{
+	position: absolute;
+	margin:0.3em;
+	color:white;
+}
+
+
+.sub_main{
+	margin: 0.3em 0.5em 0 0.3em;
+	width:100%;
+}
+
+.menu_bar_item{
+	margin:0;
+	margin-left: -1em;
+}
+
+.get_a_quote{
+	padding: 0;
+}
+.get_class{
+	margin-left:0;
+}
+
+.menu_bar_item ul{
+	display: block;
+}
+
+.item_list_class{
+	display: block;
+}
+.sub_item_list{
+	width: 60%;
+	margin-bottom: 1em;
+}
+.business_class{
+	font-size: 20px;
+}
+}
